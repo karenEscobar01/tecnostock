@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusShop</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <!-- Checkbox oculto: controla si el menú está abierto o cerrado -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">CampusShop</a>
+
+            <!-- Botón hamburguesa: visible solo en mobile y tablet -->
+            <label for="nav-toggle" class="hamburger-btn" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navegación: drawer en mobile, horizontal en desktop -->
+            <nav class="site" aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="catalogo.html" class="nav-link">Todos los productos</a></li>
+                    <li><a href="catalogo.html#categoria-men" class="nav-link">Ropa de Hombre</a></li>
+                    <li><a href="catalogo.html#categoria-women" class="nav-link">Ropa de Mujer</a></li>
+                    <li><a href="catalogo.html#categoria-jewelery" class="nav-link">Joyería</a></li>
+                    <li><a href="catalogo.html#categoria-electronics" class="nav-link">Electrónica</a></li>
+                    <li>
+                        <a href="carrito.html" class="nav-link cart-link" aria-label="Carrito de compras"
+                            title="Carrito de compras">
+                            <img src="img/carrito-lleno.svg" alt="Carrito" width="25" height="25">
+                            <span class="badge-count" id="cart-counter">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-profile">
+                        <a href="perfil.html" class="nav-link" aria-label="Mi perfil">
+                            <img src="img/avatar.svg" alt="" width="22" height="22">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Fondo oscuro: al hacer clic cierra el menú -->
+            <label for="nav-toggle" class="drawer-overlay" aria-hidden="true"></label>
+
+        </div>
+    </header>
+
+    <main class="site-main container">
+
+        <section class="search-box">
+            <form action="#" class="search-form">
+                <label for="product-search" class="visually-hidden">Buscar productos</label>
+                <input id="product-search" type="search" class="search-input" placeholder="Buscar productos, marcas...">
+            </form>
+        </section>
+
+        <section class="categories-section">
+            <h2>Categorias Populares</h2>
+            <div class="categories-grid">
+                <a href="catalogo.html#categoria-men" class="category-card">
+                    <div class="category-icon">👔</div>
+                    <span>Ropa de Hombre</span>
+                </a>
+                <a href="catalogo.html#categoria-women" class="category-card">
+                    <div class="category-icon">👗</div>
+                    <span>Ropa de Mujer</span>
+                </a>
+                <a href="catalogo.html#categoria-jewelery" class="category-card">
+                    <div class="category-icon">💍</div>
+                    <span>Joyería</span>
+                </a>
+                <a href="catalogo.html#categoria-electronics" class="category-card">
+                    <div class="category-icon">💻</div>
+                    <span>Electrónica</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <h2 class="section-title">Novedades para ti</h2>
+            <section class="products-grid" id="products-container"></section>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 CampusShop - Proyecto Académico.</p>
+        </div>
+    </footer>
+
+    <!-- Barra de navegación inferior (solo mobile/tablet) -->
+    <nav class="bottom-nav" aria-label="Navegación rápida">
+        <a href="index.html" class="bottom-nav-item active">
+            <span class="bottom-nav-icon">🏠</span>
+            Inicio
+        </a>
+        <label for="nav-toggle" class="bottom-nav-item">
+            <span class="bottom-nav-icon">📂</span>
+            Categorías
+        </label>
+        <a href="carrito.html" class="bottom-nav-item">
+            <span class="bottom-nav-icon">🛒</span>
+            Carrito
+        </a>
+        <a href="favoritos.html" class="bottom-nav-item">
+            <span class="bottom-nav-icon">♡</span>
+            Favoritos
+        </a>
+        <a href="perfil.html" class="bottom-nav-item">
+            <span class="bottom-nav-icon">👤</span>
+            Perfil
+        </a>
+    </nav>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
