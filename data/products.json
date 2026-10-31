@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado mecánico",
+    "category": "Perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Mouse óptico inalámbrico",
+    "category": "Perifericos",
+    "price": 89900,
+    "stock": 15,
+    "description": "Mouse ergonómico con conexión de 2.4 GHz",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Monitor Gamer 24 pulgadas",
+    "category": "Monitores",
+    "price": 749900,
+    "stock": 5,
+    "description": "Pantalla Full HD con tasa de refresco de 144Hz",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Auriculares con micrófono",
+    "category": "Audio",
+    "price": 159900,
+    "stock": 12,
+    "description": "Diadema con cancelación de ruido pasiva",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Memoria RAM 16GB DDR4",
+    "category": "Componentes",
+    "price": 235000,
+    "stock": 20,
+    "description": "Módulo de alta velocidad para computadores de escritorio",
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "Disco duro externo 1TB",
+    "category": "Almacenamiento",
+    "price": 289900,
+    "stock": 0,
+    "description": "Unidad portatil USB 3.0 para respaldo de datos",
+    "active": false
+  },
+  {
+    "id": 7,
+    "name": "Cámara web Full HD",
+    "category": "Perifericos",
+    "price": 129900,
+    "stock": 7,
+    "description": "Webcam con micrófono integrado para videollamadas",
+    "active": true
+  },
+  {
+    "id": 8,
+    "name": "Tarjeta de video RTX 4060",
+    "category": "Componentes",
+    "price": 195000,
+    "stock": 3,
+    "description": "Componente gráfico para videojuegos de última generación",
+    "active": true
+  },
+  {
+    "id": 9,
+    "name": "Router Wi-Fi 6",
+    "category": "Redes",
+    "price": 319900,
+    "stock": 10,
+    "description": "Enrutador de alta velocidad para múltiples dispositivos",
+    "active": true
+  },
+  {
+    "id": 10,
+    "name": "Unidad SSD NVMe 500GB",
+    "category": "Almacenamiento",
+    "price": 199900,
+    "stock": 25,
+    "description": "Disco de estado sólido ultra rápido para sistema operativo",
+    "active": true
+  },
+  {
+    "id": 11,
+    "name": "Micrófono de condensador USB",
+    "category": "Audio",
+    "price": 245000,
+    "stock": 6,
+    "description": "Micrófono de escritorio ideal para streaming y podcasts",
+    "active": true
+  },
+  {
+    "id": 12,
+    "name": "Silla ergonómica Gamer",
+    "category": "Mobiliario",
+    "price": 689900,
+    "stock": 4,
+    "description": "Asiento ajustable con soporte lumbar para largas jornadas",
+    "active": true
+  }
+]
