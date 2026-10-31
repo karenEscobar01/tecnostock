@@ -6,6 +6,7 @@
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
+    "image": "images/teclado.svg",
     "active": true
   },
   {
@@ -15,6 +16,7 @@
     "price": 89900,
     "stock": 15,
     "description": "Mouse ergonómico con conexión de 2.4 GHz",
+    "image": "images/mouse.svg",
     "active": true
   },
   {
@@ -24,6 +26,7 @@
     "price": 749900,
     "stock": 5,
     "description": "Pantalla Full HD con tasa de refresco de 144Hz",
+    "image": "images/monitor.svg",
     "active": true
   },
   {
@@ -33,6 +36,7 @@
     "price": 159900,
     "stock": 12,
     "description": "Diadema con cancelación de ruido pasiva",
+    "image": "images/auriculares.svg",
     "active": true
   },
   {
@@ -42,6 +46,7 @@
     "price": 235000,
     "stock": 20,
     "description": "Módulo de alta velocidad para computadores de escritorio",
+    "image": "images/memoria-ram.svg",
     "active": true
   },
   {
@@ -51,6 +56,7 @@
     "price": 289900,
     "stock": 0,
     "description": "Unidad portatil USB 3.0 para respaldo de datos",
+    "image": "images/disco-externo.svg",
     "active": false
   },
   {
@@ -60,6 +66,7 @@
     "price": 129900,
     "stock": 7,
     "description": "Webcam con micrófono integrado para videollamadas",
+    "image": "images/camara-web.svg",
     "active": true
   },
   {
@@ -69,6 +76,7 @@
     "price": 195000,
     "stock": 3,
     "description": "Componente gráfico para videojuegos de última generación",
+    "image": "images/tarjeta-video.svg",
     "active": true
   },
   {
@@ -78,6 +86,7 @@
     "price": 319900,
     "stock": 10,
     "description": "Enrutador de alta velocidad para múltiples dispositivos",
+    "image": "images/router.svg",
     "active": true
   },
   {
@@ -87,6 +96,7 @@
     "price": 199900,
     "stock": 25,
     "description": "Disco de estado sólido ultra rápido para sistema operativo",
+    "image": "images/ssd.svg",
     "active": true
   },
   {
@@ -96,6 +106,7 @@
     "price": 245000,
     "stock": 6,
     "description": "Micrófono de escritorio ideal para streaming y podcasts",
+    "image": "images/microfono.svg",
     "active": true
   },
   {
@@ -105,6 +116,7 @@
     "price": 689900,
     "stock": 4,
     "description": "Asiento ajustable con soporte lumbar para largas jornadas",
+    "image": "images/silla.svg",
     "active": true
   }
 ]
