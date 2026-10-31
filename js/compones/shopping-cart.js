@@ -22,7 +22,8 @@ export class ShoppingCart extends HTMLElement {
       <div class="cart-item">
         <div>
           <strong>${escapeHTML(item.name)}</strong><br>
-          <small>${formatCurrency(item.price)} x ${item.quantity}</small>
+          <small>${formatCurrency(item.price)} x ${item.quantity}</small><br>
+          <span class="cart-line-subtotal">Subtotal: ${formatCurrency(item.subtotal)}</span>
         </div>
         <div class="cart-item-controls">
           <button type="button" data-id="${item.id}" data-action="decrease" aria-label="Disminuir ${escapeHTML(item.name)}">−</button>
