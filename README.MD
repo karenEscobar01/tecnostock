@@ -1,6 +1,6 @@
 # TecnoStock
 
-Tienda local de productos tecnológicos desarrollada con HTML, CSS y JavaScript nativo. El catálogo se carga desde `data/products.json`; la API existente se conserva sin cambios.
+Tienda local de productos tecnológicos desarrollada con HTML, CSS y JavaScript nativo. El catálogo se carga mediante `fetch()` desde `data/products.json`; la capa API propaga errores de red, HTTP y JSON para que la interfaz pueda informarlos.
 
 ## Ejecutar
 
@@ -19,4 +19,4 @@ Después visita `http://localhost:8000`.
 - Confirmación simulada del pedido, sin procesar pagos ni modificar inventario.
 - Interfaz adaptable con una paleta de colores pastel.
 
-La función `getProducts()` de la API actual devuelve un arreglo vacío tanto si el catálogo está vacío como si ocurre un error de carga; por eso, sin cambiar esa API, la interfaz no puede distinguir esos dos casos.
+Los errores de red, HTTP y JSON inválido se muestran por separado de una respuesta válida con el catálogo vacío.
